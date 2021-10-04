@@ -1,0 +1,483 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pro</name>
+    </assembly>
+    <members>
+        <member name="T:Pro.Matlab">
+            <summary>
+            The Matlab class provides a CLS compliant, MWArray interface to the M-functions
+            contained in the files:
+            <newpara></newpara>
+            C:\Users\Nostalgia\Documents\MATLAB\match.m
+            <newpara></newpara>
+            C:\Users\Nostalgia\Documents\MATLAB\match2.m
+            <newpara></newpara>
+            C:\Users\Nostalgia\Documents\MATLAB\sift.m
+            <newpara></newpara>
+            deployprint.m
+            <newpara></newpara>
+            printdlg.m
+            </summary>
+            <remarks>
+            @Version 0.0
+            </remarks>
+        </member>
+        <member name="M:Pro.Matlab.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Compiler Runtime
+            instance.
+            </summary>
+        </member>
+        <member name="M:Pro.Matlab.#ctor">
+            <summary>
+            Constructs a new instance of the Matlab class.
+            </summary>
+        </member>
+        <member name="M:Pro.Matlab.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:Pro.Matlab.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:Pro.Matlab.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:Pro.Matlab.match">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the match M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the match M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             </remarks>
+             <param name="image1">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the match M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             </remarks>
+             <param name="image1">Input argument #1</param>
+             <param name="image2">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the match M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the match M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="image1">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the match M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="image1">Input argument #1</param>
+             <param name="image2">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the match function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:Pro.Matlab.match2">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the match2 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             [im1, des1, loc1] = sift(image1);
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match2(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the match2 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             [im1, des1, loc1] = sift(image1);
+             </remarks>
+             <param name="im1">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match2(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the match2 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             [im1, des1, loc1] = sift(image1);
+             </remarks>
+             <param name="im1">Input argument #1</param>
+             <param name="des1">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match2(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the match2 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             [im1, des1, loc1] = sift(image1);
+             </remarks>
+             <param name="im1">Input argument #1</param>
+             <param name="des1">Input argument #2</param>
+             <param name="loc1">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match2(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 4-input MWArrayinterface to the match2 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             [im1, des1, loc1] = sift(image1);
+             </remarks>
+             <param name="im1">Input argument #1</param>
+             <param name="des1">Input argument #2</param>
+             <param name="loc1">Input argument #3</param>
+             <param name="image2">Input argument #4</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match2(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the match2 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             [im1, des1, loc1] = sift(image1);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match2(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the match2 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             [im1, des1, loc1] = sift(image1);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="im1">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match2(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the match2 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             [im1, des1, loc1] = sift(image1);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="im1">Input argument #1</param>
+             <param name="des1">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match2(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the match2 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             [im1, des1, loc1] = sift(image1);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="im1">Input argument #1</param>
+             <param name="des1">Input argument #2</param>
+             <param name="loc1">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match2(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the match2 M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             [im1, des1, loc1] = sift(image1);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="im1">Input argument #1</param>
+             <param name="des1">Input argument #2</param>
+             <param name="loc1">Input argument #3</param>
+             <param name="image2">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.match2(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the match2 function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Find SIFT keypoints for each image
+             [im1, des1, loc1] = sift(image1);
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:Pro.Matlab.sift">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the sift M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Load image
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.sift(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the sift M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Load image
+             </remarks>
+             <param name="imageFile">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.sift(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the sift M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Load image
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.sift(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the sift M-function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             Load image
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="imageFile">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:Pro.Matlab.sift(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the sift function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             Load image
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:Pro.Matlab.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+        <member name="T:MathWorks.MATLAB.NET.ComponentData.MCRComponentState">
+            <summary>
+            The MCR Component State
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_name_data">
+            <summary>
+            The .NET Builder component name
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_root_data">
+            <summary>
+            The component root data
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_public_data">
+            <summary>
+            The public encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_session_data">
+            <summary>
+            The session encryption key for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_matlabpath_data">
+            <summary>
+            The MATLAB path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_matlabpath_data_count">
+            <summary>
+            The MATLAB path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_classpath_data">
+            <summary>
+            The class path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_classpath_data_count">
+            <summary>
+            The class path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_libpath_data">
+            <summary>
+            The lib path for the .NET Builder component
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_libpath_data_count">
+            <summary>
+            The lib path count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_mcr_application_options">
+            <summary>
+            The MCR application options
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_mcr_application_option_count">
+            <summary>
+            The MCR application options count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_mcr_runtime_options">
+            <summary>
+            The MCR runtime options
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_mcr_runtime_option_count">
+            <summary>
+            The MCR runtime options count
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_mcr_pref_dir">
+            <summary>
+            The component preferences directory
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_set_warning_state">
+            <summary>
+            Runtime warning states
+            </summary>
+        </member>
+        <member name="F:MathWorks.MATLAB.NET.ComponentData.MCRComponentState.MCC_Pro_set_warning_state_count">
+            <summary>
+            Runtime warning state count
+            </summary>
+        </member>
+    </members>
+</doc>

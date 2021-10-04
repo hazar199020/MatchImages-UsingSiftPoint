@@ -1,0 +1,11 @@
+c:\users\nostalgia\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\nostalgia\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\Project.Properties.Resources.resources
+c:\users\nostalgia\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\nostalgia\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\nostalgia\documents\visual studio 2010\Projects\Project\Project\bin\Debug\Project.exe
+c:\users\nostalgia\documents\visual studio 2010\Projects\Project\Project\bin\Debug\Project.pdb
+c:\users\nostalgia\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\Project.exe
+c:\users\nostalgia\documents\visual studio 2010\Projects\Project\Project\obj\x86\Debug\Project.pdb
+c:\users\nostalgia\documents\visual studio 2010\Projects\Project\Project\bin\Debug\EngMATLib.dll
+c:\users\nostalgia\documents\visual studio 2010\Projects\Project\Project\bin\Debug\Pro.dll
+c:\users\nostalgia\documents\visual studio 2010\Projects\Project\Project\bin\Debug\Pro.xml
